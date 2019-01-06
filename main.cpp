@@ -15,5 +15,6 @@ int main(int c, char** args) {
     Foo f;
     f.bar();
     f.bar2();
+    cout << "foo.flag -> " << f.getFlag() << makeDAG() << endl;
     return 0;
 }
